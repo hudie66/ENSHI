@@ -1,0 +1,337 @@
+/*
+* @Author: Marte
+* @Date:   2018-09-05 18:16:32
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-09-05 19:08:59
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#myBar{
+    background:#fff; /*导航栏的背景颜色*/ 
+	margin: 0px;
+}
+#mytab{
+		margin-top: 33px; 
+}
+#mytab li a{
+    color: #000;  /*字体颜色*/ 
+    font-size: 16px; /*字体大小*/
+    font-weight: 600; /*字体粗细*/
+
+}
+#mytab li a:hover,#mytab li a.active{
+	background-color:#fff;  
+	color:#df4914;
+}
+
+#mytab li a:after{ /**/
+	position: absolute;/*绝对定位*/
+}
+#Sou{
+	float: right; /*向右浮动*/
+	margin:-58px -100px 0px 0px;
+}
+#Sou button{
+	border: none; /*去除边框*/
+	background: #FFFFFF;
+}
+#Sou input{
+	border: none; /*去除边框*/
+}
+#myImg{
+	padding: 2px;
+	margin: 0px;
+	list-style-type: none;
+}
+/*#myImg {
+	float: left;
+}*/
+#myImg li img{
+	width: 100%;
+	height: 600px;
+}
+
+/*a { 
+	text-decoration: none!important; 
+}*/
+ul { 
+	list-style-type: none;
+} 
+/*.banner{
+	margin-top: 10px;
+}*/
+.slider-panel img { 
+	width:100%;  /*图片宽度*/
+	height:650px;  /*图片高度*/
+}
+.slider-extra {
+	width:100%;   
+	height:100%;
+}
+.slider {
+	text-align: center; 
+	margin:0px auto; 
+	position: relative; /*相对定位*/
+	width:100%;
+	height:793px;
+}
+.slider-panel, .slider-nav, .slider-pre, .slider-next {
+	position: absolute; /*绝对定位*/
+	z-index: 8; 
+}
+.slider-panel { 
+	position: absolute; 
+	width: 100%;
+}
+.slider-panel img { 
+	border: none; 
+	width:100%;
+}
+.slider-extra { 
+	position: relative; 
+}
+.slider-nav {
+	margin-left: -51px;
+	position: absolute;
+	left: 50%;
+	bottom:143px;
+}
+.slider-nav li {
+	background: #3e3e3e;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;  /*鼠标变成手形*/
+	margin: 0 2px;
+	overflow: hidden;   /*溢出隐藏*/
+	text-align: center;
+	display: inline-block; 
+	height: 18px;
+	line-height: 18px;  /*行间距*/
+	width: 18px;
+}
+.slider-nav li p.sl {
+	color:#fff;
+	font-weight:bold;  /*字体变粗*/
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.slider-nav .slider-item-selected { 
+	background:#24e8ff;
+}
+.slider-nav .slider-item-selected p.sl{ 
+	color:#000;	
+}
+
+.slider-page a {
+  background: rgba(0, 0, 0, 0.2);   /*背景为黑色 ，0.2的透明度*/
+  color: #fff;
+  text-align: center;
+  display: block; 
+  font-family: "simsun";
+  font-size: 22px;
+  width: 28px;
+  height: 62px;
+  line-height: 62px;/*行高*/
+  margin-top: -31px;
+  position: absolute;/*绝对定位*/
+  top: 50%;
+}
+
+.slider-next {
+  left: 100%;
+  margin-left: -28px;
+}
+
+
+#lishi{
+	background: url(../img/边框.jpg) no-repeat;
+	background-size: 100% 350px;/*背景图片的大小*/
+	width: 70%;
+	height: 350px;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+#lishi .col-md-12{
+	margin-top: 80px;
+}
+#lishi .col-md-12 a{
+	font-size: 25px;
+	font-family: "华文行楷";	
+}
+#lishi .col-md-12 a:hover{
+	font-size: 30px;
+	text-decoration: none;
+	font-family: "华文行楷";
+	color:orangered;
+}
+
+
+
+#ScenicSpot h1{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 40px;
+	color: #000000;
+	margin-top: -50px;
+	margin-bottom: 70px;
+}
+
+
+#ScenicSpot img{
+	width: 350px;
+	height: 300px;
+}
+.media-body p{
+	line-height: 50px;
+	font-size: 18px;
+	font-family: "华文仿宋";
+}
+.media-heading{
+   color: #00BEFF;
+   font-weight: bold;
+   font-family: "华文行楷";
+   text-align: center;
+   
+}
+#ScenicSpot #col-md .col-md-9{
+	margin-bottom: 80px;
+	background: #E1EDF7;
+	border-radius: 10px;
+
+}
+
+
+
+#Atlas h1,#food h1,#lishi h1{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 40px;
+	color: #000000;
+	margin-bottom: 80px;   
+}
+#nav-img{
+	margin-left: 25%;
+	margin-bottom: 40px;
+	
+}
+#Atlas .col-md-3{	
+	overflow: hidden;
+}
+#Atlas img{
+	width: 100%;
+	height: 230px;
+	transition: all 0.6s;
+}
+#Atlas img:hover{
+   transform: scale(2);
+}
+#Atlas div.col-md-3{
+	padding: 0;
+}
+
+/*.tab-content .col-md-3 a:hover{
+	display: block;
+}*/
+
+
+#food img{
+	width: 80%;
+	height: 180px;
+	margin: 20px 20px 20px 30px;
+}
+#food_row div .col-md-3{
+	height: 420px;
+	width: 322px;
+	border: 1px solid #DA6D0D;
+	background: #fff;
+	margin-left: 42px;
+}
+#food h1{
+	margin-top: 120px;
+}
+#food h5{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#food p{
+	line-height: 25px;
+	text-indent: 30px;
+}
+
+
+#baoMin{
+	margin-top: 120px;
+}
+#baoMin h2{
+	font-family: "华文仿宋";
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+#baoMin input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#baoMin .col-md-6 p{
+	margin-bottom: 50px;
+}
+#footer{
+	width: 100%;
+	height: 230px;
+	margin-top: 100px;
+	background: lightskyblue;
+	text-align: center;
+}
+#footer ul li a{
+    font-size: 22px;
+}
+#footer ul li a:hover{
+	font-size: 24px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width:855px) {/*当屏幕小于855px时产生的效果*/
+	#Sou{
+		margin-top: 5px;
+	}
+	#lishi{
+		width: 100%;
+	}
+	#lishi .col-md-12{
+		margin-top: 100px;
+	}
+	#ScenicSpot  .media-body{
+		float: left;
+		width: 100%;
+	}
+	#ScenicSpot .media-left img{
+		float: right;
+		width: 100%;
+	}
+	
+	#col-md .one{
+		margin-left: 0px;
+	}
+	#food_row .col-md-12{
+       margin-left: -30px;
+	}
+}
+@media only screen and (min-width:1000px ) {/*当屏幕大于855px时产生的效果*/
+	#col-md .one{
+		margin-left: 380px;
+	}
+	
+	#ScenicSpot .two .media-left img{
+		float: left;
+		margin-top: -310px;
+	}
+	#ScenicSpot  .two .media-body{
+		float: left;
+		width: 65%;
+        margin-left: 360px;
+	}
+	
+}

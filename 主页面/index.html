@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>ENSHI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/iconfont.css" />
+    <link rel="stylesheet" href="css/iconfont2.css"/>
+</head>
+<body>
+<!--导航-->
+<!-- style="background: #FFFFFF;"-->
+<!--制作响应式的导航栏-->
+<!--navbar-default 默认的-->
+	<nav id="myBar" class="navbar navbar-default">
+		<div class="container">
+			<!--添加一个标题 .navbar-header，内部包含了带有navbar-brand 的 <a> 元素。这会让文本看起来更大一号-->
+			<div class="navbar-header">
+     	       <a class="navbar navbar-brand" href="">
+     	       	<h1>ENSHI</h1>
+     	       </a>
+     	       <!--创建响应后折叠的导航栏-->
+     	       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav" style="margin-top: 40px;">
+     	       	<!--三个带有 .icon-bar 的 <span> 创建所谓的汉堡按钮-->
+     	       	  <span class="icon-bar"></span>
+     	       	  <span class="icon-bar"></span>
+     	       	  <span class="icon-bar"></span>
+     	       </button>
+			</div>
+			<div id="myNav">
+				<!--胶囊式选项卡导航(nav nav-pills) -->
+     	        <ul id="mytab" class="nav nav-pills">
+     		       <li><a  class="active" href="">首页</a></li>
+     		       <li><a href="../二级页面/index.html">历史文化</a></li>
+     		       <li><a href="#ScenicSpot">旅游胜地</a></li>
+     		       <li><a href="#Atlas">景点图册</a></li>
+     		       <li><a href="#food">特色美食</a></li>
+     		       <li><a href="#baoMin">关于</a></li>
+     	        </ul>
+     	        <!--制作输入框表单-->
+     	        <form  class="navbar-form navbar-right">
+     	           <div id="Sou" class="form-group">
+     	           	<button class="btn btn-default">
+     	           		<!--添加搜索的图标-->
+     	           	    <span class="iconfont icon-sousuo"></span>	
+     	             	<!--<span class="glyphicon glyphicon-search"></span>-->
+     	             </button>
+     	             <input type="text" class="form-control" placeholder="输入关键词..."/>
+     	           </div>
+     	        </form>
+            </div>
+		</div>
+	</nav>
+	
+	<!--轮播图-->
+	<!--<section class="banner">
+		<div  id="carouselMenu" class="carousel slide">
+			<ul class="carousel-inner" id="myImg">
+				<li class="item active">
+					<img src="img/3.jpg"/>
+				</li>
+				<li class="item">
+					<img src="img/2.jpg"/>
+				</li>
+				<li class="item">
+					<img  src="img/4.jpg"/>
+				</li>
+				<li class="item">
+					<img src="img/5.jpg"/>
+				</li>
+				<li class="item">
+					<img src="img/6.jpg"/>
+				</li>
+				<li class="item">
+					<img src="img/1.jpg"/>
+				</li>
+			</ul>
+			 <ol class="carousel-indicators">
+                    <li data-target="#carouselMenu" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselMenu" data-slide-to="1" ></li>
+                    <li data-target="#carouselMenu" data-slide-to="2" ></li>
+                    <li data-target="#carouselMenu" data-slide-to="3" ></li>
+                    <li data-target="#carouselMenu" data-slide-to="4" ></li>
+                    <li data-target="#carouselMenu" data-slide-to="5" ></li>
+             </ol>
+                
+                <a class="carousel-control left" href="#carouselMenu" data-slide="prev">‹</a>
+                <a class="carousel-control right" href="#carouselMenu" data-slide="next">›</a>
+		</div>		
+	</section>-->
+    
+    <!--轮播图制作-->
+    <section class="banner">
+	<div class="slider">
+	 <ul class="slider-main">
+		<li class="slider-panel">
+			<img src="img/3.jpg" class="img-responsive">
+			
+		</li>
+		<li class="slider-panel">
+			<img src="img/2.jpg" class="img-responsive">
+			
+		</li>
+		<li class="slider-panel">
+			<img src="img/4.jpg" class="img-responsive">
+			
+		</li>
+		<li class="slider-panel">
+			<img src="img/slide5.jpg" class="img-responsive">
+			
+		</li>
+		<li class="slider-panel">
+			<img src="img/6.jpg" class="img-responsive">
+			
+		</li>
+		<li class="slider-panel">
+			<img src="img/1.jpg" class="img-responsive">
+			
+		</li>
+	</ul>
+	<!--轮播图标号-->
+	<div class="slider-extra">
+		<ul class="slider-nav">
+			<li class="slider-item"><p class="sl">1</p></li>
+			<li class="slider-item"><p class="sl">2</p></li>
+			<li class="slider-item"><p class="sl">3</p></li>
+			<li class="slider-item"><p class="sl">4</p></li>
+			<li class="slider-item"><p class="sl">5</p></li>
+			<li class="slider-item"><p class="sl">6</p></li>
+		</ul>
+		<!--向左向右箭头-->
+		<div class="slider-page"> 
+		  <a class="slider-pre" href="javascript:;;">&lt;</a> 
+		  <a class="slider-next" href="javascript:;;">&gt;</a>
+		</div>
+	</div>
+</div>
+</section>
+    
+   <div id="lishi" class="container-fluid">
+   	<div class="row">
+   		<div class="col-md-12">
+   			<h1>历史文化</h1>
+   			<a href="../二级页面/index.html">点击此处查看</a>
+   		</div>
+   	</div>
+   </div>
+   
+   
+<div id="ScenicSpot" class="container-fluid">
+	<h1>旅游胜地</h1>
+	<div class="row">
+		<div id="col-md" class="col-md-12">
+	<div class="col-md-9 one">
+		<!--制作图文混排的效果-->
+		<div class="media-body">
+			<br />
+			<h2 class="media-heading">恩施大峡谷</h2>
+			<p>恩施大峡谷是国家AAAA级景区，峡谷全长108公里，以庞大著称，峡谷中沐抚大小龙门6平方公里范围内就有百座独峰，
+				仅200米以上的独立石峰就有30余座，可谓举世无双。
+				主要有大河碥、大小龙门、云龙河瀑布、前山绝壁、马寨绝壁、朝东岩隧道、车坝水库、罗针田农庄、天楼地枕电站、铜盆水森林公园等11个景点</p>
+		</div>
+		<!--<div class="col-md-3">-->
+            <a href="#" class="media-left media-middle media-bottom">		
+			<img src="img/大峡谷/1.jpg"/>
+			</a>			
+		<!--</div>-->
+	</div>
+	
+	<div class="col-md-9 two">
+		
+		<div class="media-body">
+			<br />
+			
+			<h2 class="media-heading">巴东神龙溪</h2>
+			<p>巴东神农溪是国家AAAAA级景区，属典型的水域风光类生态旅游风景区，神农溪发源于神农架南麓，全长60公里，自南向北，沿途接纳17条支流。
+				神农溪有千古之谜——古巴人“悬棺”和岩棺葬群，古栈道遗痕依稀可见，沿途可探寻古巴人的足迹。
+				碗豆角木扁舟是神农溪保存千年的原始交通运输工具，土家纤夫是古巴人纤夫的活化石，是土家民族文化和纤夫文化的结合</p>
+		</div>
+		<!--<div class="col-md-3">-->
+		<a href="#" class="media-left media-middle media-top">
+			<img src="img/神龙溪/1.jpg"/>
+        </a>
+		<!--</div>-->   
+	</div>	
+	
+	<div class="col-md-9 one">
+	    
+		<div class="media-body">
+
+			<br />
+			
+			<h2 class="media-heading">恩施龙鳞宫</h2>
+			<p>恩施龙鳞宫是国家AAA级景区，属地文景观类洞穴风景区，龙麟宫俗称“出水洞”，属水旱兼备洞穴景观，
+				由水洞、干洞和迷津洞组成，洞长2300多米，其中水洞“小三峡”长500多米，干洞和迷津洞长1800多米。
+				洞穴雄奇神秀、水陆兼备。洞中气候宜人，冬暖夏凉，平均温度20℃。
+				龙麟宫的一坛、二府、三峡、九龙、十三厅和二十八珍奇等200多处景点分布在水洞“小三峡”、干洞和迷津洞中</p>
+		</div>
+		<!--<div class="col-md-3">-->
+         <a href="#" class="media-left media-middle media-bottom">
+			<img src="img/龙鳞宫/3.jpg"/>
+         </a>
+		<!--</div>-->
+	</div>
+	
+	<div class="col-md-9 two">
+		
+		<div class="media-body">
+			<br />
+			<h2 class="media-heading">恩施土司城</h2>
+			<p>恩施土司城是国家AAAA级景区，是土家族地区仿古土司庄园建筑群，属古迹与建筑类园林景观民俗风景区，
+				是以展示民族文化为主要内容，以休闲、旅游为主要功能的大型文化公园和旅游景点，
+				主要分民族文化展示区、宗教展示区、休闲娱乐区三个主要区。这里建有恩施州土家族、
+				苗族、侗族三个主要少数民族的传统建筑，以展示各具特色的建筑、雕刻艺术</p>
+		</div>
+		<!--<div class="col-md-3">-->
+		<a href="#" class="media-left media-middle media-bottom">
+			<img src="img/111.jpg"/>
+		</a>
+		<!--</div>-->
+	</div>
+	
+	<div class="col-md-9 one">
+		
+		
+		<div class="media-body">
+			<br />
+			
+			<h2 class="media-heading">梭布垭石林</h2>
+			<p>梭布垭石林是国家AAAA级景区，因地质岩溶现象而形成，属典型的喀斯特地貌，是以石林为主的地文景观类风景区。
+				梭布是土家语三个的意思，梭布垭即三个垭。
+				景区平均海拔900多米，属亚热带季风性湿润气候，被誉为“戴冠石林”、“天然氧吧”</p>
+		</div>
+		<!--<div class="col-md-3">-->
+		<a href="" class="media-left media-middle media-bottom">
+			<img src="img/9.jpeg"/>
+        </a>
+		<!--</div>-->
+        
+	</div>
+	
+	
+	
+	<div class="col-md-9 two">
+		       
+		<div class="media-body">
+			<br />
+			
+			<h2 class="media-heading">利川腾龙洞</h2>
+			<p>利川腾龙洞由水洞、旱洞、鲇鱼洞、凉风洞、独家寨以及三个龙门、化仙坑等景区组成，洞中有山，山中有洞，水洞与旱洞相连，
+				主洞与支洞互通，洞口垂直高度74米，宽64米，洞长52.5公里，专家认为该洞穴系世界特级溶洞之一，位居世界第七，亚洲第一。
+				2005年10月，腾龙洞被《中国国家地理》评为“中国最美的地方”,洞中景观千姿百态，神秘莫测。洞外风光山清水秀，水洞口的卧龙吞江瀑布落差20余米，吼声如雷，气势磅礴。</p>
+		</div>   
+		<!--<div class="col-md-3">-->
+		<a href="" class="media-left media-middle media-bottom">
+			<img src="img/腾龙洞/1.jpg"/>
+        </a>
+		<!--</div>-->
+	</div>
+	</div>
+	</div>
+</div>
+
+
+<div id="Atlas">
+	<h1>景点图册</h1>
+	<div class="tabbable" >
+		<!--nav-justified平均分布-->
+		<ul id="nav-img" class="nav nav-tabs nav-justified" style="width: 50%;">
+			<!--为每个标签项超链接定义data-toggle = "tab"属性，激活标签页的交互行为-->
+    	<li class="active"><a href="#num1" data-toggle = "tab">大峡谷</a></li>
+    	<li><a href="#num2" data-toggle = "tab">土司城</a></li>
+    	<li><a href="#num3" data-toggle = "tab">龙鳞宫</a></li>
+    	<li><a href="#num4" data-toggle = "tab">梭布垭</a></li>
+    	<li><a href="#num5" data-toggle = "tab">神龙溪</a></li>
+    	<li><a href="#num6" data-toggle = "tab">腾龙洞</a></li>
+      </ul>    
+    <div class="container-fluid">
+    	
+    	<div class="row">
+    		<!--tab-content定义包含框为标签页的内容显示框-->
+    	<div class="tab-content">
+    		<!--在包含框中插入与标签页结构对应的多个子内容框，并使用tab-pane进行定义-->
+    	     <div id="num1"   class="col-md-12 tab-pane active">
+              	<div class="col-md-3 col-sm-6">
+       	        	<a href="img/大峡谷/5.jpg">
+				       <img src="img/大峡谷/5.jpg" alt=""/>
+				    <div>
+
+				    </div>
+			        </a>
+            	</div>
+            	
+         	<div class="col-md-3 col-sm-6">
+       		        <a href="img/大峡谷/6.jpeg">
+			        	<img src="img/大峡谷/6.jpeg" alt=""/>
+			    	<div>
+
+				    </div>
+			        </a>
+         	</div>
+         	
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/大峡谷/7.jpg">
+				<img src="img/大峡谷/7.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/大峡谷/8.jpg">
+				<img src="img/大峡谷/8.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+
+      
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/大峡谷/4.jpg">
+				<img src="img/大峡谷/4.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/大峡谷/3.jpg">
+				<img src="img/大峡谷/3.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/大峡谷/2.jpg">
+				<img src="img/大峡谷/2.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/大峡谷/1.jpg">
+				<img src="img/大峡谷/1.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+          </div>
+         
+         
+    	<div id="num2" class="col-md-12 tab-pane fade">
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/土司城/2.jpg">
+				<img src="img/土司城/2.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/土司城/3.jpg">
+				<img src="img/土司城/3.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/土司城/1.png">
+				<img src="img/土司城/1.png" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/土司城/4.jpg">
+				<img src="img/土司城/4.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+
+
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/土司城/5.jpg">
+				<img src="img/土司城/5.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/土司城/6.jpg">
+				<img src="img/土司城/6.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/土司城/7.jpg">
+				<img src="img/土司城/7.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/土司城/8.jpg">
+				<img src="img/土司城/8.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+         </div>
+         
+         <!--设计标签页淡入效果，需要为每个标签页选项tab-pane添加fade类-->
+         <div id="num3" class="col-md-12 tab-pane fade">
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/龙鳞宫/2.jpg">
+				<img src="img/龙鳞宫/2.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/龙鳞宫/4.jpg">
+				<img src="img/龙鳞宫/4.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/龙鳞宫/1.jpg">
+				<img src="img/龙鳞宫/1.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/龙鳞宫/5.jpg">
+				<img src="img/龙鳞宫/5.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/龙鳞宫/6.jpg">
+				<img src="img/龙鳞宫/6.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       		<div class="col-md-3 col-sm-6">
+       		<a href="img/龙鳞宫/7.jpg">
+				<img src="img/龙鳞宫/7.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/龙鳞宫/8.jpg">
+				<img src="img/龙鳞宫/8.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+         </div>
+         
+        <div id="num4" class="col-md-12 tab-pane fade">
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/梭布垭/1.jpg">
+				<img src="img/梭布垭/1.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/梭布垭/2.jpg">
+				<img src="img/梭布垭/2.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/梭布垭/3.jpg">
+				<img src="img/梭布垭/3.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/梭布垭/4.jpg">
+				<img src="img/梭布垭/4.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/梭布垭/7.jpg">
+				<img src="img/梭布垭/7.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/梭布垭/5.jpg">
+				<img src="img/梭布垭/5.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+         </div>
+         
+         <div id="num5" class="col-md-12 tab-pane fade">
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/神龙溪/2.jpg">
+				<img src="img/神龙溪/2.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/神龙溪/3.jpg">
+				<img src="img/神龙溪/3.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/神龙溪/4.jpg">
+				<img src="img/神龙溪/4.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/神龙溪/5.jpg">
+				<img src="img/神龙溪/5.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/神龙溪/1.jpg">
+				<img src="img/神龙溪/1.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/神龙溪/6.jpg">
+				<img src="img/神龙溪/6.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/神龙溪/7.jpg">
+				<img src="img/神龙溪/7.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+         </div>
+         
+          <div id="num6" class="col-md-12 tab-pane fade">
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/腾龙洞/2.jpg">
+				<img src="img/腾龙洞/2.jpg" alt=""/>
+				<div>
+                   
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/腾龙洞/3.jpg">
+				<img src="img/腾龙洞/3.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/腾龙洞/4.jpg">
+				<img src="img/腾龙洞/4.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/腾龙洞/5.jpg">
+				<img src="img/腾龙洞/5.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/腾龙洞/6.jpg">
+				<img src="img/腾龙洞/6.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/腾龙洞/7.jpg">
+				<img src="img/腾龙洞/7.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+       	<div class="col-md-3 col-sm-6">
+       		<a href="img/腾龙洞/8.jpg">
+				<img src="img/腾龙洞/8.jpg" alt=""/>
+				<div>
+
+				</div>
+			</a>
+       	</div>
+         </div>
+        </div>
+    	</div>       
+    </div>
+ </div>   
+</div>
+
+
+<div id="food" class="container-fluid">
+	<div class="row" id="food_row">
+		<h1>特色美食</h1>
+		<div class="col-md-12">
+			<div class="col-md-3 col-sm-6">
+				<img src="img/美食/10.jpeg" class="img-circle"/>
+				<h5>土家腊肉</h5>
+				<p>土家人家家都兴喂年猪，主要是图过年时有肉吃，过年吃不完的，土家人便把它制作成腊肉，
+					不仅便于保存，而且肉色更加好看，把腊肉放在锅里烹煮，香飘十里，勾人食欲，是土家人平时招待客人摆在席上的主菜。</p>
+			</div>
+            <div class="col-md-3  col-sm-6">
+				<img src="img/美食/1.jpg" class="img-circle"/>
+				<h5>榨广椒</h5>
+				<p>也称为榨辣椒，它是以鲜红辣椒和苞谷面（玉米面）为主要原料加工而成。
+					制作少量的鲊广椒也可用正腹水坛子，即有沿可放水的，正放，在沿内槽中放水，盖上盖。</p>
+			</div>
+			<div class="col-md-3  col-sm-6">
+				<img src="img/美食/3.jpg" class="img-circle"/>
+				<h5>炕洋芋</h5>
+				<p>“炕”是湖北宜昌、恩施地区的方言，是煎炒焖炸之外的一种做菜方式，介于用少量食用油煎与炸之间的一种烹饪方式。
+					“洋芋”便是土豆，炕熟后，洋芋吃在嘴里感觉不油有种烤熟的香甜感</p>
+			</div>
+			<div class="col-md-3  col-sm-6">
+				<img src="img/美食/9.jpg" class="img-circle"/>
+				<h5>合渣</h5>
+				<p>又名“懒豆渣”、“懒豆腐”，是湖北省宜昌、恩施等地家常菜,合渣的味道特别，清淡、带乳香，百吃不厌，
+					鄂西南地区的土家族流传有“辣椒当盐，合渣过年”的民谚。宜昌、恩施等地的餐馆更是把它当成一道地方菜</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="baoMin" class="container">
+	<div  class="row">
+		<div class="col-md-12">
+			<div class="col-md-6">
+			<h2>联系我们</h2>
+				<h3>地址：</h3>
+				<p>湖北省恩施土家族苗族自治州</p>
+				<h3>邮箱：</h3>
+				<p>664420982@qq.com</p>
+				<h3>电话：</h3>
+				<p>+13260675989</p>			
+				<h3>微博：</h3>
+				<p>+13260675989</p>			
+			</div>
+
+			<div class="col-md-6">
+			<h2>报名信息</h2>
+				<input type="text" placeholder="姓名" style="height: 60px;"/><br />
+				<input type="text" placeholder="电话" style="height: 60px;"/><br />
+				<input type="text" placeholder="您想要去的景点" style="height: 200px;"><br />
+                <input type="button" class="btn-info" value="点击报名" style="width: 120px;height:30px;background: skyblue; margin-left: 200px;"/>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div id="footer" class="col-md-12">
+			<br />
+	     <h3>ZUIMEIENSHI</h3>
+	     <h5>HUAN YIN NING DE DAO LAI</h5>
+          <ul>
+          	<li><a href="" class="iconfont icon-qq"></a></li>
+          	<li><a href="" class="iconfont icon-weixin"></a></li>
+          	<li><a href="" class="iconfont icon-weibo"></a></li>
+          </ul>
+          <span>Copyright © 2018 www.enshi.gov.cn All Rights Reserved.</span>
+       </div>
+	</div>
+</div>
+</body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/zslider-1.0.1.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#myTab a").click(function(e){
+		e.preventDefault();
+		$(this).tab("show");
+		
+	})
+
+//      /*
+//      * interval为每个轮播项之间的切换时间
+//      * wrap定义是否循环轮播
+//      *
+//      * */
+//      $("#carouselMenu").carousel({
+//          interval: 2500,
+//          wrap: true
+//      });
+
+var slider = $('.slider').zslider({
+			imagePanels: $('.slider-panel'),
+			ctrlItems: $('.slider-item'),
+			ctrlItemHoverCls: 'slider-item-selected',
+			//panelHoverShowFlipBtn: false,
+			flipBtn: {
+				container: $('.slider-page'),
+				preBtn: $('.slider-pre'),
+				nextBtn: $('.slider-next')
+			},
+			callbacks: {
+				animate: function(imagePanels, ctrlItems, fromIndex, toIndex) {
+					return true;
+				}
+			}
+		});
+})
+</script>
+</html>

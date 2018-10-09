@@ -1,0 +1,250 @@
+.slider li h1{
+	color: #FFFFFF;
+	font-size: 65px;
+	font-weight: bold;
+	margin: 40px 0px 0px 30px;
+	font-family: "华文新魏";
+	text-shadow: 10px 10px 20px #EE250C;
+}
+#Customs{
+	width: 50%;height: 600px;
+	margin-left: auto;
+	margin-right: 150px;
+	margin-top: 30px;
+	line-height:35px;
+}
+#Customs h2{
+    margin: -30px 0px 20px 0px;
+	color: #FFF0F0;
+	font-size: 40px;
+	text-shadow: 0 0 20px #000000;
+	letter-spacing: 20px;
+}
+#Customs span{
+	color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    background: #FFF0F0;
+    opacity:0.7;
+    
+}
+#Customs span p{
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 20px;
+}
+#DeliciousFood,#music,#dance{
+  	text-align: center;
+	margin: auto;
+}
+#DeliciousFood h2,#music h2,#dance h2{
+    text-shadow: 0 0 30px orangered;
+	color: #FFFAFA;
+	font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+	letter-spacing: 20px;
+}
+#DeliciousFood span p.Text{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 35px;	
+	color:#000000;
+}
+
+#DeliciousFood img{
+	width:17%;
+	height: 180px;
+	margin-left: 60px;
+}
+#music span p {
+	color: deepskyblue;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: "华文仿宋";
+}
+#music span{
+	width: 400px;
+	height:300px;
+	float: left;
+	margin-left: 50px;
+	font-family: "华文新魏";
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+#dance2{
+	background: #000000;
+	opacity: 0.5;
+}
+#dance3{
+	  width: 700px;
+	  margin: auto;
+}
+#dance2 span p{
+	color: orangered;
+	font-family: "华文行楷";
+	font-size: 30px;
+	margin-top: 20px;
+}
+#dance2 span{
+	color: #fff;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "宋体";
+}
+
+span.fan a{
+	color: #FFFFFF;
+	font-size: 25px;
+	font-weight: bold;
+}
+span.hui a{
+	color: #000000;
+	font-size: 25px;
+	font-weight: bold;
+}
+span.fan{
+	color: #FFF0F0;
+}
+span.hui{
+	color: #000000;
+	
+}
+span.fan,span.hui{
+	margin-left: 100px;
+}
+span.fan:hover,span.fan a:hover{
+	font-size: 27px;
+	color: deepskyblue;
+	text-decoration: none;
+}
+span.hui a:hover,span.hui:hover{
+	font-size: 27px;
+	color: limegreen;
+	text-decoration: none;
+}
+@media only screen and (max-width:1000px) {
+	#Customs{
+		width: 60%;
+		height: 850px;
+	}
+	 #Customs h2{
+	text-align: center;
+   }
+   #Customs span p{
+	text-align: center;
+    }
+    #DeliciousFood{
+    	width: 95%;
+
+    }
+    #DeliciousFood span br{
+       display: none;
+    }
+    #DeliciousFood span img{
+    	width: 25%;
+    	height: 130px;
+    }
+    #music span p {
+	margin-bottom: 5px;
+    }
+    #music h2{
+	margin-bottom: 10px;
+    }
+    #music span{
+    width: 90%;
+	height: 150px;
+    margin-left: 30px;
+    }
+    #dance2 #dance3{
+		width: 80%;
+	}
+	#dance2 #dance3 span{
+        font-size: 25px;
+        line-height: 35px;
+	}
+	#dance2 #dance3 span p{
+        font-size: 35px;
+	}
+	
+}
+@media only screen and (max-width: 600px) {
+	.slider li h1{
+	font-size: 50px;
+   margin: auto;
+   margin-left: 80px;
+
+    }
+	#Customs{
+		width: 80%;
+		height: 550px;
+	    margin: auto;	
+	    width: 300px;
+	    margin-top: 5px;
+	    line-height:20px;
+   }
+   #Customs h2{
+   	margin-bottom: 5px;
+   	margin-top: 10px;
+	font-size: 30px;
+	text-align: center;
+   }
+   #Customs span{
+     font-size: 14px;
+    background: #FFF0F0;    
+  }
+   #Customs span p{
+	color: #000;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 20px;
+    }
+	#DeliciousFood span p.Text{
+		display: none;
+	}
+	#DeliciousFood span img{
+		width: 40%;
+		height: 115px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+	}
+    #music span p {
+	font-size: 15px;
+	margin-bottom: 5px;
+    }
+    #music h2{
+	margin-bottom: 5px;
+    }
+    #music span{
+    width: 95%;
+	height: 90px;
+    clear: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-size: 13px;
+	line-height: 15px;
+	
+    }
+
+	#dance2 #dance3 span{
+        font-size: 14px;
+        line-height: 10px;
+	}
+	#dance2 #dance3 span p{
+		margin-top: 10px;
+		font-size: 25px;
+	}
+	#dance2 #dance3{
+		width: 90%;
+	}
+	#dance h2{
+		margin-bottom: 20px;
+	}
+}
